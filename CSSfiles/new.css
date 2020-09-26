@@ -1,0 +1,19 @@
+.div1{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  float: left;
+}
+.div2{
+  width: 400px;
+  height:200px;
+  background-color: orange;
+  float:left;
+
+}
+.div3{
+  width: 600px;
+  height:200px;
+  background-color: Blue;
+  float: left;
+}
