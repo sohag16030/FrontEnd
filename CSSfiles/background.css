@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+.main-div{
+  width: 50%;
+  height: 600px;
+  border: 2px solid black;
+  position: relative;
+  left: 15%;
+}
+.div1{
+     margin: 5px;
+     width: 98%;
+     height: 50px;
+     border: 2px solid black;
+     float: left;
+}
+.div2{
+     margin: 5px;
+     width: 33%;
+     height: 245px;
+     border: 2px solid black;
+     float: left;
+}
+.div3{
+     margin: 5px;
+     width: 33%;
+     height: 245px;
+     border: 2px solid black;
+     float: left;
+}
+.mid1{
+     margin: 5px;
+     width: 95%;
+     height: 150px;
+     border: 2px solid black;
+}
+.mid2{
+     margin: 5px;
+     width: 95%;
+     height: 75px;
+     border: 2px solid black;
+}
+.div5{
+     margin: 5px;
+     width: 29%;
+     height: 245px;
+     border: 2px solid black;
+     float: left;
+}
+
+.div6{
+     margin: 5px;
+     width: 98%;
+     height: 50px;
+     border: 2px solid black;
+     float: left;
+}
+.div7{
+     margin: 5px;
+     width: 48%;
+     height: 205px;
+     border: 2px solid black;
+     float: left;
+}
+.div8{
+     margin: 5px;
+     width: 48.5%;
+     height: 205px;
+     border: 2px solid black;
+     float: left;
+}
