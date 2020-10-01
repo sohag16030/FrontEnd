@@ -1,0 +1,21 @@
+*{
+	/*font family from google font*/
+	font-family: 'Dancing Script', cursive;
+}
+.div1{
+	height: 200px;
+	width: 200px;
+	/*background: linear-gradient(to right,rgb(66, 245, 78),rgb(129, 66, 245),rgb(245, 66, 66));*/
+	background: radial-gradient(red,blue,green,magenta,rgb(129, 66, 245),rgb(245, 66, 66));
+	margin: 50px 50px;
+	/*border: 2px solid green;*/
+	border-radius: 100px;
+	box-shadow: 5px 5px 4px black;
+}
+/*use google font to use this fonts style*/
+.h1{
+	margin: 50px 50px;
+	font-size: 50px ;
+	color: blue;
+	text-shadow: 5px 2px 5px black;
+}
