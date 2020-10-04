@@ -69,3 +69,10 @@
 	}
 
 }
+@media screen and (max-width : 766px) {
+	   .blank{
+			 height: 0px;
+		 }
+
+	 }
+}
