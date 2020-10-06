@@ -1,0 +1,16 @@
+
+.himg{
+   height: 700px;
+   width: 100%;
+}
+.demo{
+  margin-right: 500px;
+  margin-top: 500px;
+}
+.distance{
+	margin-top: 50px;
+    margin-right:50px;
+}
+.button:hover span{
+  background-color: magenta;
+}
