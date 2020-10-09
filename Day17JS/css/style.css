@@ -1,0 +1,27 @@
+.cardbody{
+	background-color: #afe4ed;
+	width: 300px;
+    height: 321px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.control{
+	width: 250px;
+	height: 53px;
+	border:2px solid black;
+	margin:5px 5px;
+}
+.btnsize{
+	width:50px;
+	height: 50px;
+	margin:5px 5px;
+	background-color: black;
+	border:2px solid blue;
+}
+.box{
+	height: 50px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 5px;
+}

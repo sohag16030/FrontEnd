@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>First Name</td>
+			<td><input type="text" name="first_name" id="firstName"></td>
+		</tr>
+		<tr>
+			<td>Second Name</td>
+			<td><input type="text" name="second_name" id="secondName"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="btn" id="btn" value="Submit" onclick="FormedName()"></td>
+		</tr>
+		<tr>
+			<td>Full Name</td>
+			<td id="demo"></td>
+		</tr>
+	</table>
+   <script type="text/javascript">
+   	function FormedName(){
+       let first_name = document.getElementById("firstName").value;
+       let second_name = document.getElementById("secondName").value;
+       document.getElementById("demo").innerHTML = first_name +" "+ second_name;
+       //document.write(first_name +" "+ second_name);
+
+   	}
+   	/*function demo(first_name,last_name){
+   		 document.write(first_name+" "+last_name);
+   	}
+   	function calculate(fist_number,second_number){
+   		document.write(fist_number+second_number);
+   	}
+    demo("sohag","sadaf");
+    document.write("<br>");
+    demo("karim","khan");
+    document.write("<br>");
+    calculate(3,4);*/
+
+
+   </script>
+</body>
+</html>

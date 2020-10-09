@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <!-- JS objects -->
+  <p id="demo"></p>
+ <script type="text/javascript">
+  
+  //create an object
+ var car = {type:"Fiat", model:"500", color:"white"};
+  document.getElementById("demo").innerHTML="<b>The car type is</b> "+car.type;
+ </script>
+ <!-- JS events -->
+ <p>Click the button display the date:</p>
+ <button onclick="displayDate()">The time is?</button>
+  <script type="text/javascript">
+   function displayDate(){
+   	document.getElementById("time").innerHTML = Date();
+   }
+  </script>
+  <p id="time"></p>
+  <!-- Exercise -->
+  <button onclick="alert()">Click me.</button>
+  <script type="text/javascript">
+  	function alert(string){
+  		document.getElementById("click").innerHTML = "hi";
+  	}
+  </script>
+   <p id= "click"></p>
+  <!-- String and String Method -->
+  <p id="len"></p>
+  <p id="in">is the first index from where 'searching word' is started</p>
+  <script type="text/javascript">
+  	 var answer1 = "It's alright";
+     var answer2 = "He is called 'Johnny'";
+     var answer3 = 'He is called "Johnny"';
+  	var sln = answer1.length;
+  	document.getElementById("len").innerHTML = sln;
+  	var str = "Please locate where 'locate' occurs!";
+    var pos = str.indexOf("locate");
+    document.getElementById("in").innerHTML=pos;
+  </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="demo2"></p>
+  <button onclick="myFunction1()">Sort Alphabetically</button>
+  <p id = "demo3"></p>
+  <button onclick="myFunction2()">Sort Numerically</button>  
+   <p id = "demo4"></p>
+  <script type="text/javascript">
+  	var Fruits =new Array("Apple","Mango","JackFruits");
+  	var Cars=["BMW","Ferarry","Lamburgini","Allion"];
+  	var arr = [1,5,3,8,2,3];
+  	//Fruits.sort();
+    Fruits.unshift("Cheri");
+    document.getElementById("demo").innerHTML = Fruits;
+  	document.getElementById("demo2").innerHTML = Cars;
+  	document.getElementById("demo3").innerHTML = Cars;
+  	document.getElementById("demo4").innerHTML = arr;
+  	function myFunction1(){
+  		Cars.sort();
+  		document.getElementById("demo3").innerHTML = Cars;
+  	}
+  	function myFunction2(){
+  		arr.sort(function(a,b) {return(a-b)});
+  		document.getElementById("demo4").innerHTML = arr;
+  	}
+
+  </script>
+</body>
+</html>
