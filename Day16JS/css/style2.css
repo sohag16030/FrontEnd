@@ -1,0 +1,21 @@
+.start{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	border:2px solid black;
+	margin-top:5px;
+}
+.end{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	border:2px solid black;
+	margin-top:5px;
+}
+.result{
+	height: 100px;
+	width: 200px;
+	border-radius: 10px;
+	border:2px solid black;
+	margin-top:5px;
+}

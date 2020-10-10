@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    	<table>
+    		<tr>
+    			<td>Starting point:</td>
+    			<td><input id="starting" type="text" name="start" class="start"></td>
+    		</tr>
+    		<tr>
+    			<td>Ending point:</td>
+    			<td><input id="ending" type="text" name="end" class="end"></td>
+    		</tr>
+    		<tr>
+    			<td><button onclick="myFunction()">All</button></td>
+    			<td><textarea id="result" type="text" class="result"></textarea></td>
+    		</tr>
+
+    	</table>
+    	<script type="text/javascript">
+    		function myFunction(){
+    			var S = parseInt(document.getElementById("starting").value);
+    			var s=parseInt(S);
+    			var E = parseInt(document.getElementById("ending").value);
+    			var e = parseInt(E);
+    			var arr = new Array();
+    			for(i = s ;i<=e;i++)
+    				arr.push(i);
+    			/*var ans='';
+               for(i=s;i<=e;i++)
+               	 ans+=i+' ';*/
+    			document.getElementById("result").innerHTML = arr;
+    			                                                           
+    			
+    		}
+    	</script>
+    </div>
+</body>
+</html>
